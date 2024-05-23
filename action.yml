@@ -12,7 +12,7 @@ runs:
       shell: bash
     - name: Hello World
       run: |
-        . mylib.sh
+        . ${HOME}/mylib.sh
         hello_world
       shell: bash
 
