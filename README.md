@@ -1,2 +1,2 @@
-# action_jackson
-get me some GH action!
+# action_practice
+from Learning Github Actions Chap 10
