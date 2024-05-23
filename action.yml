@@ -7,5 +7,11 @@ runs:
     - name: Show action path 
       run: |
         echo ${{ github.action_path }}
+        cp ${{ github.action_path }}/mylib.sh ${HOME}
+        ls ${HOME}
       shell: bash
+    - name: Hello World
+      run: |
+        . mylib.sh
+        hello_world
 
